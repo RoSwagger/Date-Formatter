@@ -19,7 +19,7 @@ pip install roswagger==2.0
 
 ## Formats & How to Use
 
-```
+```python
 Format Type |	Description | Example Output
 t |	Short Time |	9:06 PM
 T |	Long Time |	9:06:40 PM
@@ -32,7 +32,7 @@ R |	Relative Time |	16 years ago
 
 ## Request Example
 
-```
+```json
 {
     "original_date": "2006-02-27T21:06:40.3Z",
     "iso_format": "2006-02-27T21:06:40.300000+00:00",
